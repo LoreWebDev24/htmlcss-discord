@@ -109,6 +109,7 @@ html {
 .logo {
     padding-top:8px;
 }
+
 ul, li, ol {
    margin:0;
    padding: 0;
@@ -131,7 +132,6 @@ button {
   padding: 15px;
   border-radius: 28px;
   border: none;
-  background-color: white;
   font-weight: 400;
   font-size: 16px;
   display: inline-block;
@@ -151,7 +151,12 @@ button {
 .blu-button {
     color: white;
     background-color: #8EA1E1 ;
-    
+
+}
+
+.white-button {
+    color: black;
+    background-color: white;
 }
 
 header {
@@ -192,6 +197,15 @@ h3 {
 
 }
 
+h4{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    color:black;
+    background-image: url('/img/stars.svg');
+}
+
 p {
     padding-bottom: 40px; 
     color:white;
@@ -201,11 +215,8 @@ span {
     color: black;
 }
 
-
-
-
 section {
-    padding: 50px;
+    padding: 100px;
 }
 
 .section__header {
@@ -222,6 +233,10 @@ section {
 .section-2 {
     background-color: white;
     text-align: left;
+}
+
+.section-3 {
+    background-color: #F6F6F6 ;
 }
 
 .row  {
@@ -316,6 +331,10 @@ section {
 .col__section-1, .col1__section-2, .col2__section-2, .col1__section-3, .col2__section-3, .col1__section-6, .col2__section-6, .col3__section-6, .col4__section-6, .col5__section-6 {
 
     min-height: 400px;
+}
+
+.col1__section-5{
+    text-align: center;
 }
 
 
