@@ -9,8 +9,27 @@ html {
     font-family: 'DM Sans', sans-serif;
 }
 
+img {
+    width: 100%;
+}
+
+.logo {
+    width: 60%;
+}
+
 .logo {
     padding-top:8px;
+}
+
+.italy-flag {
+    width: 5%;
+    padding-right: 5px;
+}
+
+.socials {
+    width: 20px;
+    height: 20px;
+    background-color: #23272A  ;
 }
 
 ul, li, ol {
@@ -64,11 +83,17 @@ button {
 
 header {
     background-color: #255EE9;
+    height: 100px;
     
 }
 
 footer {
     background-color: #23272A ;
+}
+
+footer .span {
+    color: white;
+    font-size: 12px;
 }
 
 .footer-1 {
@@ -107,6 +132,17 @@ h4{
     padding-top: 40px;
     color:black;
     background-image: url('/img/stars.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    color:#7289DA;
+    width: 40%;
 }
 
 p {
@@ -131,6 +167,8 @@ section {
     background-image: url('/img/jumbo.png');
     /* min-height: 1100px; */
     text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .section-2 {
@@ -138,9 +176,12 @@ section {
     text-align: left;
 }
 
-.section-3 {
+.section-3, .section-5 {
     background-color: #F6F6F6 ;
+    /* background-image: url('/img/wave.svg'); */
 }
+
+
 
 .row  {
     display: flex;
@@ -247,5 +288,11 @@ section {
 .container__section-2 {
     padding-top: 100px;
 }
+
+.col1__section-2 {
+    padding-right: 100px;
+}
+
+
 
 
